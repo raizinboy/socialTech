@@ -15,6 +15,15 @@ p {
     margin: 0 auto 0 auto;
   }
 
+  /*PC用カルーセル設定*/
+  .carousel {
+    width: 885px;
+    margin-left: 20px;
+  }
+  .carouselImg {
+    width: 885px;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -660,14 +669,24 @@ p {
     margin: 0;
   }
 
+  /*スマホ版カルーセルの設定*/
+  .carousel{
+    width: 375px;
+    margin: 0 auto;
+  }
+  .carouselImg{
+    width: 375px;
+  }
+
   #nav-pc {
     display: none;
   }
   
 
   #menu-sp {
-    float: right;
-    padding: 0;
+    position: absolute;
+    top: 0px;
+    right: 0px;
   }
 
   #nav-sp {
